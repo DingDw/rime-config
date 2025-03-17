@@ -1,12 +1,12 @@
 __build_info:
   rime_version: 1.11.2
   timestamps:
-    weasel: 1742202142
+    weasel: 1742204377
     weasel.custom: 1742202110
 app_options:
   firefox.exe:
-    inline_preedit: false
-config_version: "2024-09-25"
+    inline_preedit: true
+config_version: "2024-05-14"
 global_ascii: false
 preset_color_schemes:
   android:

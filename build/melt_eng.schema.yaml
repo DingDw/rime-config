@@ -1,10 +1,10 @@
 __build_info:
   rime_version: 1.11.2
   timestamps:
-    default: 1742201384
-    default.custom: 1742202764
+    default: 1742204355
+    default.custom: 1742204387
     melt_eng.custom: 0
-    melt_eng.schema: 1742201024
+    melt_eng.schema: 1742204370
 algebra_abc:
   - "derive/1([4-7|9])/$1teen/"
   - "derive/11/eleven/"
@@ -351,7 +351,7 @@ algebra_mspy:
   - "derive/9/jq/"
   - "derive/\\+/jw/"
   - "derive/#/j;/"
-algebra_rime_ice:
+algebra_rime_frost:
   - "derive/1([4-7|9])/$1teen/"
   - "derive/11/eleven/"
   - "derive/12/twelve/"
@@ -638,7 +638,6 @@ menu:
     - "⑩"
   page_size: 7
 punctuator:
-  digit_separators: ",.:"
   full_shape:
     " ": {commit: "　"}
     "!": {commit: "！"}
@@ -688,7 +687,7 @@ punctuator:
     ",": "，"
     "-": "-"
     .: "。"
-    "/": "/"
+    "/": ["/", "÷"]
     ":": "："
     ";": "；"
     "<": "《"

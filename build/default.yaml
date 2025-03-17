@@ -1,8 +1,8 @@
 __build_info:
   rime_version: 1.11.2
   timestamps:
-    default: 1742201384
-    default.custom: 1742202764
+    default: 1742204355
+    default.custom: 1742204387
 ascii_composer:
   good_old_caps_lock: true
   switch_key:
@@ -11,7 +11,7 @@ ascii_composer:
     Control_R: noop
     Shift_L: commit_code
     Shift_R: inline_ascii
-config_version: "2025-02-24"
+config_version: "2024-07-12"
 key_binder:
   bindings:
     - {accept: "Shift+Tab", send: "Shift+Left", when: composing}
@@ -57,7 +57,6 @@ menu:
     - "⑩"
   page_size: 7
 punctuator:
-  digit_separators: ",.:"
   full_shape:
     " ": {commit: "　"}
     "!": {commit: "！"}
@@ -107,7 +106,7 @@ punctuator:
     ",": "，"
     "-": "-"
     .: "。"
-    "/": "/"
+    "/": ["/", "÷"]
     ":": "："
     ";": "；"
     "<": "《"
@@ -131,7 +130,7 @@ recognizer:
     underscore: "^[A-Za-z]+_.*"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 schema_list:
-  - schema: rime_ice
+  - schema: rime_frost
 switcher:
   abbreviate_options: true
   caption: "「方案选单」"

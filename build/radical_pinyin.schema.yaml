@@ -1,10 +1,10 @@
 __build_info:
   rime_version: 1.11.2
   timestamps:
-    default: 1742201384
-    default.custom: 1742202764
+    default: 1742204355
+    default.custom: 1742204387
     radical_pinyin.custom: 0
-    radical_pinyin.schema: 1742201024
+    radical_pinyin.schema: 1742204372
 algebra_abc:
   - "xform/^zh/<a>/"
   - "xform/^ch/<e>/"
@@ -290,7 +290,7 @@ schema:
 
   name: "部件拆字 | 全拼双拼"
   schema_id: radical_pinyin
-  version: 2.0.0
+  version: 1.1.0
 speller:
   algebra:
     - "xform/'//"
