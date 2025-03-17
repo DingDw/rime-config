@@ -13,4 +13,5 @@ patch:
   "style/font_point": 12                           # 全局字体字号
   "style/label_font_point": 12                     # 标签字体字号，不设定 fallback 到 font_point
   "style/comment_font_point": 11                   # 注释字体字号，不设定 fallback 到 font_point
+  "style/spacing": 5                   # 注释字体字号，不设定 fallback 到 font_point
 

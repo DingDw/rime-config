@@ -1,2 +1,7 @@
 var:
-  last_build_time: 1742204398
+  last_build_time: 1742208635
+  option:
+    emoji: false
+    full_shape: false
+    search_single_char: false
+    traditionalization: false

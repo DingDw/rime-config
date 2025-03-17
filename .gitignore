@@ -1,3 +1,10 @@
 **/*.log
 **/MANIFEST*
 **/LOG
+**/CURRENT
+**/LOG*
+**/LOCK
+sync
+build
+**/LOG
+**/*.ldb
