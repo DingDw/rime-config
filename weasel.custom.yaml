@@ -1,0 +1,16 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Mon Mar 17 16:44:08 2025"
+  rime_version: 1.11.2
+patch:
+  "style/color_scheme": dark_temple
+  "style/font_face": "Maple Mono NF CN"
+  "style/label_font_face": "Maple Mono NF CN"       # 标签字体
+  "style/comment_font_face": "Maple Mono NF CN"     # 注释字体
+  "style/inline_preedit": false # 行内显示预编辑区：true；false
+  "style/font_point": 12                           # 全局字体字号
+  "style/label_font_point": 12                     # 标签字体字号，不设定 fallback 到 font_point
+  "style/comment_font_point": 11                   # 注释字体字号，不设定 fallback 到 font_point
+
